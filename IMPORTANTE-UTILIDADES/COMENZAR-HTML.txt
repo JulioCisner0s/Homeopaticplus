@@ -1,0 +1,33 @@
+        Partimos de una estructura semántica:
+    Esto significa que todo nuestro sitio parte de etiquetas las cuales contienen una estructura que va formando al sito.
+Pensemoslo como un libro, un diario, un blog; todos ellos partes de una estructura:
+
+-Como su carátula.
+-Su portada.
+-Sus títulos.
+-Sus capítulos.
+-Sus imágenes.
+-Sus párrafos.
+-Sus diferentes secciones y artículos.
+-Como tambien su autor.
+
+    Todo eso en un sitio lo separamos de la siguiente manera:
+    En primer lugar tenemos a todo el documento HTML:5.
+
+-Luego partimos del "head" quien es el encargado de contener links a estilos, librerías y título del sítio.
+-Por último el "body" quien va a ser el encargado de alojar toda la magia y contenido.
+
+En el body podremos encontrar la siguiente estructura semántica.
+PARTIMOS DE 3 ETIQUETAS PRINCIPALES PARA ARMAR NUESTRA ESTRUCTURA:
+            
+            -N#1
+            HEADER/NAV = ACÁ VAMOS A DESTINAR A CREAR NUESTRA BARRA DE NAVEGACIÓN.
+
+            -N#2
+            MAIN = DENTRO CREAREMOS LAS DIFERENTES SECCIONES DEL SITIO.
+
+            -N#3
+            FOOTER = AQUÍ, TODO NUESTRO PIÉ DE PÁGINA.
+
+---------------------------------------------------------------------------------------------------------
+

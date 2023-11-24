@@ -1,0 +1,6 @@
+Algunos de los atajos mas utilizados en VS Code: 
+
+https://gist.github.com/Heipry/0c585a989953f46d56792cb2d93c0a15
+-------------------------------------------------------------
+https://damiandeluca.com.ar/visual-studio-code-atajos-de-teclado-shortcuts
+-------------------------------------------------------------

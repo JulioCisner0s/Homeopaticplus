@@ -1,0 +1,50 @@
+1- Prettier - Code formatter
+-------------------------
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+°Esta extensión permite formatear el código según las reglas de cada lenguaje. Soporta la sintaxis de una gran cantidad de lenguajes.
+
+2- Live Server
+-----------
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+°Esta es una de las extensiones más recomendadas por desarrolladores frontends, ya que crea un pequeño servidor local para que puedas ver lo que estás haciendo y se actualice automáticamente con cada cambio.
+
+3- Polacode
+--------
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=pnp.polacode
+°Te permite sacar capturas del código fuente para que lo compartas donde quieras; en tus grupos de trabajo, redes sociales o para que lo guardes eternamente porque seguramente es lo más hermoso que has creado.
+
+4- indent-rainbow
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow
+°Te indica a través de barras de colores en qué nivel de indentación está tu código y así sea más fácil de leer.
+
+5- Stories
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=bar9.stories
+°¿Te imaginabas que podías compartir tu trabajo por stories?, ¿o qué podrías ver lo que otros desarrolladores están haciendo con su código? Con esta extensión podrás mostrar partes de tu código, ver el código de otros usuarios e incluso manipularlo, como si fuera un archivo local, y reutilizarlo en alguno de tus proyectos.
+
+6- Spanish Language Pack for Visual Studio Code
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-es
+°Traductor al Español.
+
+7- Auto Rename Tag
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag
+°Cambia automáticamente el nombre de la etiqueta HTML/XML emparejada, igual que lo hace Visual Studio IDE.
+
+8- CSS Peek
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek
+°Esta extensión amplía la edición de código HTML y busca lo que se encuentran en cadenas dentro del código fuente.
+
+9- HTML to CSS autocompletion
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=solnurkarim.html-to-css-autocompletion
+°Autocompleta HTML y CSS.
+
+10- Image preview
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview
+°Previsualiza la IMG al lateral para ver si es correcta.
+
+11- Highlight Matching Tag
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag
+°Nos indica donde empieza y termina cada apertura y cierre de clase.
+
+12- HTML CSS Support
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css
+°Nos facilita el maquetado de HTML y CSS.

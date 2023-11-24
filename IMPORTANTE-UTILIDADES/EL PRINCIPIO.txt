@@ -1,0 +1,26 @@
+Sepan que para poder logar que nuestro sitio sea escalabre y a largo plazo mantenible, debemos de respetar siertas cosas:
+
+Entre ellas está lo que llamamos anidaciones con respecto al contenido.
+
+La manera correcta de implementar el armado de un sitio web es la siguiente:
+
+1# Una sola carpeta raiz: Por ejemplo una carpeta con el nombre del proyecto.
+2# Dentro de la raiz podremos crear las carpetas que necesitemos para alojar y separar contenido:
+    °imagenes.
+    °videos.
+    °tipografias.
+    °iconos.
+    °paginas.
+    °musica.
+    °css.
+    °js.
+    °scss.
+
+Todas ellas las iremos viendo en el trascurso de la cursada.
+
+#3 Por último debemos de crear un archivo dentro de la raiz llamado:
+    index.html 
+
+Este será el archivo principal por el cual crearemos todo nuestro sitio.
+
+#4 Imagicación, creatividad, perseverancia, juego y paciencia son la clave de esto. 
