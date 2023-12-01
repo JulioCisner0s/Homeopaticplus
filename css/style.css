@@ -131,8 +131,8 @@ form {
 }
 
 .Inicios_1 h1 {
-  color: rgba(158, 153, 153, 0.84);
-  margin-left: 7px;
+  color: rgba(21, 97, 203, 0.84);
+  text-align: center;
 }
 
 .Inicios_1 .Inicios_Contenido {
@@ -152,116 +152,117 @@ form {
   grid-template-areas: "GRIDiniciosIMG2 GRIDiniciosIMG1" "GRIDiniciosIMG2 GRIDiniciosIMG1";
 }
 
-.tamañoInicios {
-  position: relative;
-}
-
-.tamañoInicios img {
+.tamañoInicios1 img {
+  border-radius: 100%;
   width: 100%;
   height: 100%;
   padding: 10px;
 }
 
+.tamañoInicios2 img {
+  border-radius: 10%;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.containerParrafo .Hola{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  font-size: 20px;
+  padding-top: 50px;
+  margin: 35px;
+  justify-content: center;
+}
+
+.containerParrafo .contenido1{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  font-size: 16px;
+  padding-top: 50px;
+  margin: 35px;
+  justify-content: center;
+}
 .GRIDiniciosIMG1 {
+  position: relative;
   grid-area: GRIDiniciosIMG1;
 }
 
 .GRIDiniciosIMG2 {
+  position: relative;
   grid-area: GRIDiniciosIMG2;
 }
-
-#contentImg {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 250px);
-  gap: 10px;
-  grid-template-areas: "gridImg1 gridImg2 gridImg4" "gridImg3 gridImg3 gridImg4";
+#tituloTienda h1 {
+  text-align: center;
+  color: rgba(21, 97, 203, 0.84);
 }
 
-.gridImg {
-  grid-area: gridImg1;
+#containerGridCalafate2 {
+  background-color: rgb(244, 244, 244);
+  padding-top: 10px;
+  display: grid; 
+  grid-template-columns: repeat(4, 1fr); 
+  grid-template-rows: repeat(2, 1fr); 
+  gap: 0px; 
+  grid-template-areas: 
+    "ImgCalafate_1 ImgCalafate_2 ImgCalafate_3 ImgCalafate_4"
+    "ImgCalafate_5 ImgCalafate_6 ImgCalafate_7 ImgCalafate_8"; 
 }
 
-.gridImg2 {
-  grid-area: gridImg2;
-}
+.tamañoBox2 {
 
-.gridImg3 {
-  grid-area: gridImg3;
-}
-
-.gridImg4 {
-  grid-area: gridImg4;
-}
-
-.gridImg1,
-.gridImg2,
-.gridImg3,
-.gridImg4 {
-  background-image: url(../images/Banner.jpg);
-  background-size: cover;
-}
-
-.gridImg3 {
-  background-image: url(../icons/Tienda.png);
-  background-position: center;
-}
-
-.gridImg4 {
-  background-image: url(../icons/Citas.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-#containerGridCalafate {
-  margin-top: 30px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 200px);
-  grid-template-areas: "ImgCalafate1 ImgCalafate2 ImgCalafate3 ImgCalafate4" "ImgCalafate5 ImgCalafate6 ImgCalafate7 ImgCalafate8";
-  gap: 20px;
-}
-
-.tamañoBox {
   position: relative;
 }
 
-.tamañoBox img {
-  width: 100%;
-  height: 100%;
-  padding: 10px;
+.tamañoBox2 h1 {
+  position: absolute;
+  font-size: 17px;
+  margin-left: 23px;
+}
+.tamañoBox2 h2 {
+  margin-top: 40px;
+  position: absolute;
+  font-size: 12px;
+  margin-left: 23px;
 }
 
-.ImgCalafate1 {
-  grid-area: ImgCalafate1;
+.tamañoBox2 img {
+  border-radius: 15%;
+  width: 80%;
+  height: 80%;
+  padding: 20px;
 }
 
-.ImgCalafate2 {
-  grid-area: ImgCalafate2;
+.ImgCalafate_1 {
+  grid-area: ImgCalafate_1;
 }
 
-.ImgCalafate3 {
-  grid-area: ImgCalafate3;
+.ImgCalafate_2 {
+  grid-area: ImgCalafate_2;
 }
 
-.ImgCalafate4 {
-  grid-area: ImgCalafate4;
+.ImgCalafate_3 {
+  grid-area: ImgCalafate_3;
 }
 
-.ImgCalafate5 {
-  grid-area: ImgCalafate5;
+.ImgCalafate_4 {
+  grid-area: ImgCalafate_4;
 }
 
-.ImgCalafate6 {
-  grid-area: ImgCalafate6;
+.ImgCalafate_5 {
+  grid-area: ImgCalafate_5;
 }
 
-.ImgCalafate7 {
-  grid-area: ImgCalafate7;
+.ImgCalafate_6 {
+  grid-area: ImgCalafate_6;
 }
 
-.ImgCalafate8 {
-  grid-area: ImgCalafate8;
+.ImgCalafate_7 {
+  grid-area: ImgCalafate_7;
+}
+
+.ImgCalafate_8 {
+  grid-area: ImgCalafate_8;
 }
 
 @media (max-width: 768px) {

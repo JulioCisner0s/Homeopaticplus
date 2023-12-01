@@ -57,6 +57,19 @@ header nav ul li a {
     transition: .5s;
 }
 
+#navBar {
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    ul a:hover {
+    color: blueviolet;
+    font-size: 25px;
+    transition: .5s;
+    }
+}
+
+
 #banner{
     position: relative;
     width: 100%;
@@ -143,6 +156,7 @@ form {
 
 #GRIDinicios {
     display: grid;
+    border-radius: 12%;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-template-areas:
