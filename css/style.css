@@ -197,6 +197,38 @@ form {
   color: rgba(21, 97, 203, 0.84);
 }
 
+@media (max-width: 768px) {
+
+#GRIDinicios{
+    display: flex;
+    font-size: 10px;
+  }
+  .GRIDiniciosIMG1 img {
+    height: 500px;
+    width: 400px;
+    margin-top: 190px;
+  }
+}
+
+@media (max-width: 480px) {
+  #GRIDinicios{
+    flex-direction: column;
+    gap: 10px;
+    }
+    .GRIDiniciosIMG1 img {
+      margin-top: 10px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
 #containerGridCalafate2 {
   background-color: rgb(244, 244, 244);
   padding-top: 10px;
@@ -266,22 +298,31 @@ form {
 }
 
 @media (max-width: 768px) {
-  #containerGridCalafate {
+  .tamañoBox2 {
+    margin-bottom: 55px;
+  }
+  #containerGridCalafate2 {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 200px);
-    grid-template-areas: "ImgCalafate1 ImgCalafate2" "ImgCalafate3 ImgCalafate4" "ImgCalafate5 ImgCalafate6" "ImgCalafate7 ImgCalafate8";
+    grid-template-areas: "ImgCalafate_1 ImgCalafate_2" "ImgCalafate_3 ImgCalafate_4" "ImgCalafate_5 ImgCalafate_6" "ImgCalafate_7 ImgCalafate_8";
   }
 }
-@media (max-width: 768px) and (max-width: 480px) {
-  #containerGridCalafate {
+@media (max-width: 480px) {
+  .tamañoBox2 {
+    margin-bottom: 27px;
+  }
+  #containerGridCalafate2 {
+    gap: 10px;
+    flex-direction: column;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 160px);
-    grid-template-areas: "ImgCalafate1" "ImgCalafate2" "ImgCalafate3" "ImgCalafate4" "ImgCalafate5" "ImgCalafate6" "ImgCalafate7" "ImgCalafate8";
+    grid-template-areas: "ImgCalafate_1" "ImgCalafate_2" "ImgCalafate_3" "ImgCalafate_4" "ImgCalafate_5" "ImgCalafate_6" "ImgCalafate_7" "ImgCalafate_8";
   }
 }
 @media (max-width: 768px) {
-  .tamañoBox img {
-    max-width: 80%;
+  .tamañoBox2 img {
+    flex-direction: column;
+    max-width: 50%;
   }
 }
 #footer {
