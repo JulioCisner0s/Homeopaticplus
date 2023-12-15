@@ -1,0 +1,36 @@
+$color_5: rgb(37, 37, 219);
+$color_6: rgba(0, 79, 191, 0.84);
+
+#historia {
+	display: flex;
+	align-items: center;
+	flex-direction: row-reverse;
+	margin: 30px;
+	.historiaIMG {
+		img {
+			box-shadow: 10px 10px rgba(0, 0, 0, 0.384);
+			border: solid rgba(0, 0, 0, 0.875);
+			border-width: 2px;
+			width: 85%;
+			height: 400px;
+		}
+	}
+	.nuestraHistoria {
+		font-size: 20px;
+		width: 500px;
+		margin: 20px;
+		line-height: 1.5;
+	}
+}
+.nuestraHistoria {
+	h2 {
+		font-family: $font-family_2;
+		color: $color_5;
+	}
+	h4 {
+		font-family: $font-family_6;
+	}
+}
+p {
+	font-family: $font-family_6;
+}

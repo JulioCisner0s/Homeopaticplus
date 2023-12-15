@@ -1,0 +1,43 @@
+$background-color_2: rgba(86, 83, 83, 0.567);
+$color_4: rgba(11, 10, 10, 0.742);
+$font-family_4: 'Archivo', sans-serif;
+$background-color_3: rgb(255, 255, 255);
+$font-family_5: 'Chivo Mono', monospace;
+
+#servicios {
+	display: flex;
+	background-color: $background-color_2;
+	justify-content: center;
+	flex-direction: column;
+	h2 {
+		font-size: 30px;
+		text-align: center;
+		color: $color_4;
+		font-family: $font-family_4;
+	}
+	img {
+		width: 50px;
+		height: 50px;
+	}
+	article {
+		box-shadow: 10px 10px rgba(0, 0, 0, 0.421);
+		width: 130px;
+		height: 130px;
+		background-color: $background-color_3;
+		margin: 20px;
+		border-radius: 30px;
+		text-align: center;
+		padding-top: 10px;
+	}
+}
+.serviciosBox {
+	display: flex;
+	justify-content: center;
+	gap: 60px;
+	article {
+		h3 {
+			font-family: $font-family_5;
+			font-size: 26px;
+		}
+	}
+}

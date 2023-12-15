@@ -1,0 +1,63 @@
+$color_7: rgba(21, 97, 203, 0.84);
+$background-color_4: rgb(244, 244, 244);
+
+
+#tituloTienda {
+	h1 {
+		text-align: center;
+		color: $color_7;
+	}
+}
+#containerGridCalafate2 {
+	background-color: $background-color_4;
+	padding-top: 10px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 0px;
+	grid-template-areas: "imgCalafate_1 imgCalafate_2 imgCalafate_3 imgCalafate_4" "imgCalafate_5 imgCalafate_6 imgCalafate_7 imgCalafate_8";
+}
+.tamañoBox2 {
+	position: relative;
+	h2 {
+		position: absolute;
+		font-size: 17px;
+		margin-left: 23px;
+	}
+	h3 {
+		margin-top: 40px;
+		position: absolute;
+		font-size: 12px;
+		margin-left: 23px;
+	}
+	img {
+		border-radius: 15%;
+		width: 80%;
+		height: 80%;
+		padding: 20px;
+	}
+}
+.imgCalafate_1 {
+	grid-area: imgCalafate_1;
+}
+.imgCalafate_2 {
+	grid-area: imgCalafate_2;
+}
+.imgCalafate_3 {
+	grid-area: imgCalafate_3;
+}
+.imgCalafate_4 {
+	grid-area: imgCalafate_4;
+}
+.imgCalafate_5 {
+	grid-area: imgCalafate_5;
+}
+.imgCalafate_6 {
+	grid-area: imgCalafate_6;
+}
+.imgCalafate_7 {
+	grid-area: imgCalafate_7;
+}
+.imgCalafate_8 {
+	grid-area: imgCalafate_8;
+}

@@ -1,0 +1,55 @@
+#contacto_2 {
+	display: flex;
+	.mapa {
+		iframe {
+			width: 700px;
+			height: 440px;
+			margin-top: 50px;
+			margin-bottom: 40px;
+			margin-left: 15%;
+		}
+	}
+}
+#contacto {
+	h1 {
+		color: $color_6;
+		margin-top: 20px;
+		font-size: 55px;
+		text-align: center;
+		font-family: $font-family_6;
+	}
+}
+.contacto_Box {
+	img {
+		display: flex;
+		align-items: center;
+		margin-top: 20px;
+		margin-left: 50%;
+		width: 12%;
+	}
+	.contacto_Ubi {
+		.calle {
+			font-size: 23px;
+			margin-left: 120px;
+		}
+	}
+	.contacto_Mail {
+		.mail {
+			font-size: 23px;
+			margin-left: 250px;
+		}
+	}
+	.contacto_Cell {
+		.celular {
+			font-size: 23px;
+			margin-left: 320px;
+		}
+	}
+	.contacto_Web {
+		.web {
+			font-size: 23px;
+			margin-left: 275px;
+			margin-bottom: 20px;
+		}
+	}
+}

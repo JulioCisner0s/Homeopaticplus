@@ -1,0 +1,112 @@
+$color_8: #000000;
+$color_9: #ffffff;
+$background-color_6: rgba(235, 240, 240, 0.874);
+
+
+#citas_fondo {
+	background-color: $background-color_6;
+}
+#content {
+	display: flex;
+	justify-content: space-between;
+	h2 {
+		font-family: $font-family_2;
+		color: $color_1;
+		font-size: 34px;
+		margin-top: 60px;
+		margin-left: 77px;
+	}
+	.horarios_atencion {
+		margin-left: 75px;
+		font-size: 30px;
+		line-height: 70px;
+		margin-top: 50px;
+		text-align: center;
+	}
+}
+#titulo_ciats {
+	h1 {
+		margin-right: 100px;
+		margin-top: 10px;
+		font-size: 55px;
+		text-align: center;
+		font-family: $font-family_6;
+		color: $color_6;
+	}
+}
+.contact-wrapper {
+	h3 {
+		font-family: $font-family_2;
+		text-align: center;
+	}
+	margin-top: 23px;
+	margin-right: 45px;
+	box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+	>* {
+		padding: 1em;
+	}
+}
+.contact-form {
+	width: 710px;
+	height: 500px;
+	background: rgba(255, 255, 255, .3);
+	form {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr 1fr;
+		label {
+			display: block;
+		}
+		p {
+			margin: 0;
+			padding: 1em;
+		}
+		.block {
+			grid-column: 1 / 4;
+		}
+		button {
+			width: 100%;
+			padding: .7em;
+			border: none;
+			background: none;
+			outline: 0;
+			color: $color_8;
+			border-bottom: 1px solid #000000;
+			background: rgba(255, 255, 255, .3);
+			border: 0;
+			text-transform: uppercase;
+			padding: 1em;
+			&:hover {
+				background: #000000;
+				color: $color_9;
+				transition: background-color 1s ease-out;
+				outline: 0;
+			}
+			&:focus {
+				background: #000000;
+				color: $color_9;
+				transition: background-color 1s ease-out;
+				outline: 0;
+			}
+		}
+		input {
+			width: 100%;
+			padding: .7em;
+			border: none;
+			background: none;
+			outline: 0;
+			color: $color_8;
+			border-bottom: 1px solid #000000;
+		}
+		textarea {
+			width: 100%;
+			padding: .7em;
+			border: none;
+			background: none;
+			outline: 0;
+			color: $color_8;
+			border-bottom: 1px solid #000000;
+			resize: none;
+		}
+	}
+}

@@ -1,0 +1,45 @@
+$font-family_1: 'Kanit', sans-serif;
+
+
+header {
+	width: 100%;
+	font-family: $font-family_1;
+	text-align: center;
+	backdrop-filter: blur(0.2rem);
+	position: sticky;
+	top: 0;
+	z-index: 100;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	nav {
+		img {
+			width: 4%;
+		}
+		ul {
+			li {
+				a {
+					font-size: 20px;
+					margin-left: 10px;
+					color: $color_1;
+					transition: 0.5s;
+					margin-inline: 20px;
+				}
+			}
+		}
+	}
+}
+#navBar {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	ul {
+		a {
+			&:hover {
+				color: $color_2;
+				font-size: 25px;
+				transition: 0.5s;
+			}
+		}
+	}
+}

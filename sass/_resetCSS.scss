@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	scroll-padding-top: 70px;
+}
+a {
+	display: inline-block;
+	font-style: none;
+	list-style: none;
+	text-decoration: none;
+}
+li {
+	display: inline-block;
+	font-style: none;
+	list-style: none;
+	text-decoration: none;
+}
+main {
+	min-height: 100vh;
+}

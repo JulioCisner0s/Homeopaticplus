@@ -6,7 +6,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="../css/style.css">
         <!--TÍTULO DEL DOCUMENTO-->
@@ -30,12 +32,53 @@
 
         <!--ESTRUCTURA #2 / MAIN/SECTIONS-ARTICLES-DIVS-ASIDES-->
         <main>
-            <section>
-                <h1>Contacto</h1>
+            <section id="banner">
+                <img src="../images/Banner_4.jpg" alt="BANNER DE HOMEOPATIA">
+                <article class="banner__contenido">
+                    <div class="bienvenidos">
+                        <h2>¡LE DAMOS <br> 
+                            LA <br>
+                            BIENVENIDA!</h2>
+                        <h3> Su salud es la prioridad.</h3>
+                    </div>
+                    <div class="banner__titulo">
+                        <h2>La mejor opción para tu salúd.</h2>
+                        <h2>Citas, tienda, contacto, todo acerca de la medicina homeopática lo más cerca de ti.</h2>
+                    </div>
+                    <div class="banner__parrafo">
+                        <p>Elige la hora que prefieras y pide cita sin necesidad de llamar. Es fácil, cómodo y muy rápido.
+                        Te confirmamos la cita al instante y te enviamos un recordatorio a tu celular antes de la cita.
+                        Bienvenido a mi portal.
+                        </p>
+                    </div>
+                    <div class="banner__boton">
+                        <a href="../pages/conocernos.html">Saber Más</a>
+                    </div>
+                </article>
             </section>
-
-            <section>
-                <article>
+            <section id="contacto">
+                <h1>CONTACTO</h1>
+            </section>
+            <section id="contacto_2">
+                    <section class="contacto_Box">
+                        <div class="contacto_Ubi">
+                            <img src="../icons/Ubicacion.png" alt="">
+                            <p class="calle">Calle El Campanario 230, Trojes de Oriente 2a Secc. C.P. 20115</p>
+                        </div>
+                        <div class="contacto_Mail">
+                            <img src="../icons/Email.png" alt="">
+                            <p class="mail">pandora.6713@yahoo.com.mx</p>
+                        </div>
+                        <div class="contacto_Cell">
+                            <img src="../icons/Celular.png" alt="">
+                            <p class="celular">449-225-5038</p>
+                        </div>
+                        <div class="contacto_Web">
+                            <img src="../icons/Web.png" alt="">
+                            <p class="web">www.homeopaticplus.com</p>
+                        </div>
+                    </section>
+                <article class="mapa">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3701.1208999389205!2d-102.30554802497682!3d21.92990315621958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8429ef085d914c69%3A0xb6bd77ea35cdb15e!2sEl%20Campanario%20230%2C%20Trojes%20de%20Oriente%20II%2C%2020115%20Aguascalientes%2C%20Ags.!5e0!3m2!1ses-419!2smx!4v1699221254616!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
                 </article>
@@ -44,10 +87,10 @@
 
         <!--ESTRUCTURA #3 / FOOTER-->
         <footer id="footer">
-            <article class="footerContainer__logo">
+            <div class="footerContainer__logo">
                 <img class="footerLogo" src="../icons/Logo.png" alt="Logo_1">
-            </article>
-            <article class="footer__links">
+            </div>
+            <div class="footer__links">
                 <ul> <!--LISTA DESORDENADA-->
                     <li><a href="../index.html">Inicio</a></li>
                     <li><a href="citas.html">Citas</a></li>
@@ -55,13 +98,13 @@
                     <li><a href="tienda.html">Tienda</a></li>
                     <li><a href="#">Contacto</a></li>
                 </ul>
-            </article>
-            <article class="footerContainer__redes">
+            </div>
+            <div class="footerContainer__redes">
                 <img class="footerRedes" src="../icons/Whatsapp2.png" alt="Whatssapp">
                 <img class="footerRedes" src="../icons/Facebook3.png" alt="Facebook">
                 <img class="footerRedes" src="../icons/Instagram2.png" alt="Instagram">
                 <img class="footerRedes" src="../icons/Twitter2.png" alt="Twiitter">
-            </article>
+            </div>
         </footer>
     </body>
 </html>

@@ -6,13 +6,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="../css/style.css">
         <!--TÍTULO DEL DOCUMENTO-->
         <title>Citas</title>
     </head>
-    <body>
+    <body id="citas_fondo">
         <!--ESTRUCTURA #1 / HEADER-NAV-->
         <header>
             <nav id="navBar">
@@ -29,54 +31,93 @@
 
         <!--ESTRUCTURA #2 / MAIN/SECTIONS-ARTICLES-DIVS-ASIDES-->
         <main>
-            <section>
-                <h1>Citas</h1>
-            </section>
-            <section id="boxCitas">
-                <article>
-                    <form action="#">
-                        <input type="text" placeholder="Nombre: "> <!--CAMPO DE TEXTO-->
-                        <br> <!--SALTO DE LINEA-->
-                        <label for="email">
-                            Email:
-                            <br>
-                            <input type="email">
-                        </label>
-
-                        <br>
-
-                        <label for="Observaciones" > <!--ESTRUCTURA MENSAJE-->
-                            Mensaje: 
-                            <br>
-                            <textarea name="Observaciones" id="Observaciones" cols="30" rows="10"></textarea>
-                        </label>
-
-                        <br>
-                        <!--ESTRUCTURA DE SELECCION EMPRESA-->
-                        <p>Seleccione los datos correspondientes:</p>
-                        <select name="Sexo" id="Sexo">
-                            <option value="Seleccione...">Seleccione...</option>
-                            <option value="Masculino">Masculino</option>
-                            <option value="Femenino">Femenino</option>
-                            <option value="Otro...">Otro...</option>
-                        </select>
-
-                            <br>
-
-                            <input type="submit" value="Enviar y Siguiente">
-                            <br>
-                            <input type="reset"value="Resetear">
-                    </form>
+            <section id="banner">
+                <img src="../images/Banner_4.jpg" alt="BANNER DE HOMEOPATIA">
+                <article class="banner__contenido">
+                    <div class="bienvenidos">
+                        <h2>¡LE DAMOS <br> 
+                            LA <br>
+                            BIENVENIDA!</h2>
+                        <h3> Su salud es la prioridad.</h3>
+                    </div>
+                    <div class="banner__titulo">
+                        <h2>La mejor opción para tu salúd.</h2>
+                        <h2>Citas, tienda, contacto, todo acerca de la medicina homeopática lo más cerca de ti.</h2>
+                    </div>
+                    <div class="banner__parrafo">
+                        <p>Elige la hora que prefieras y pide cita sin necesidad de llamar. Es fácil, cómodo y muy rápido.
+                        Te confirmamos la cita al instante y te enviamos un recordatorio a tu celular antes de la cita.
+                        Bienvenido a mi portal.
+                        </p>
+                    </div>
+                    <div class="banner__boton">
+                        <a href="../pages/conocernos.html">Saber Más</a>
+                    </div>
                 </article>
             </section>
+            <div id="titulo_ciats">
+                <h1>CITAS</h1>
+            </div>
+            <div id="content">
+                <div class="ciats">
+                    <h2>HORAS DE ATENCIÓN AL PÚBLICO</h2>
+                    <p class="horarios_atencion"> Estamos para lo que necesite <br>
+                        De lunes de viernes de 9:00 a.m. a 10:00 p.m. <br>
+                        Sábados de 12:00 p.m. a 6 p.m. <br>
+                        Domingos cerrado.
+                    </p>
+                </div>
+                <div class="contact-wrapper animated bounceInUp">
+                    <div class="contact-form">
+                        <div class="formulario">
+                            <h3>INGRESE SUS DATOS</h3>
+                        </div>
+                        <form action="">
+                            <p>
+                                <label>Nombre Completo</label>
+                                <input type="text" name="fullname">
+                            </p>
+                            <p>
+                                <label>Email</label>
+                                <input type="email" name="email">
+                            </p>
+                            <p>
+                                <label>Numero de Telefono</label>
+                                <input type="tel" name="phone">
+                            </p>
+                            <p>
+                                <label>Direccion</label>
+                                <input type="text" name="affair">
+                            </p>
+                            <p>
+                                <label>Fecha de la Cita</label>
+                                <input type="text" name="affair">
+                            </p>
+                            <p>
+                                <label>Hora de la Cita</label>
+                                <input type="text" name="affair">
+                            </p>
+                            <p class="block">
+                                <label>Mensaje</label> 
+                                <textarea name="message" rows="3"></textarea>
+                            </p>
+                            <p class="block">
+                                <button>
+                                    Enviar
+                                </button>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </main>
 
         <!--ESTRUCTURA #3 / FOOTER-->
         <footer id="footer">
-            <article class="footerContainer__logo">
+            <div class="footerContainer__logo">
                 <img class="footerLogo" src="../icons/Logo.png" alt="Logo_1">
-            </article>
-            <article class="footer__links">
+            </div>
+            <div class="footer__links">
                 <ul> <!--LISTA DESORDENADA-->
                     <li><a href="../index.html">Inicio</a></li>
                     <li><a href="#">Citas</a></li>
@@ -84,13 +125,13 @@
                     <li><a href="tienda.html">Tienda</a></li>
                     <li><a href="contacto.html">Contacto</a></li>
                 </ul>
-            </article>
-            <article class="footerContainer__redes">
+            </div>
+            <div class="footerContainer__redes">
                 <img class="footerRedes" src="../icons/Whatsapp2.png" alt="Whatssapp">
                 <img class="footerRedes" src="../icons/Facebook3.png" alt="Facebook">
                 <img class="footerRedes" src="../icons/Instagram2.png" alt="Instagram">
                 <img class="footerRedes" src="../icons/Twitter2.png" alt="Twiitter">
-            </article>
+            </div>
         </footer>
     </body>
 </html>

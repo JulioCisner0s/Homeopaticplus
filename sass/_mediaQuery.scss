@@ -1,0 +1,91 @@
+@media (max-width: 768px) {
+	#iniciosGRID {
+		display: flex;
+		font-size: 10px;
+	}
+	.iniciosIMG1 {
+		img {
+			height: 500px;
+			width: 400px;
+			margin-top: 190px;
+		}
+	}
+	.tamañoBox2 {
+		margin-bottom: 55px;
+		img {
+			flex-direction: column;
+			max-width: 50%;
+		}
+	}
+	#containerGridCalafate2 {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(4, 200px);
+		grid-template-areas: "imgCalafate_1 imgCalafate_2" "imgCalafate_3 imgCalafate_4" "imgCalafate_5 imgCalafate_6" "imgCalafate_7 imgCalafate_8";
+	}
+	.footerLogo {
+		width: 60px;
+		height: 60px;
+	}
+	.footerRedes {
+		width: 40px;
+		height: 40px;
+		gap: 10px;
+	}
+	.footer__links {
+		ul {
+			li {
+				a {
+					font-size: 15px;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 480px) {
+	#iniciosGRID {
+		flex-direction: column;
+		gap: 10px;
+	}
+	.iniciosIMG1 {
+		img {
+			margin-top: 10px;
+		}
+	}
+	.tamañoBox2 {
+		margin-bottom: 27px;
+	}
+	#containerGridCalafate2 {
+		gap: 10px;
+		flex-direction: column;
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(8, 160px);
+		grid-template-areas: "imgCalafate_1" "imgCalafate_2" "imgCalafate_3" "imgCalafate_4" "imgCalafate_5" "imgCalafate_6" "imgCalafate_7" "imgCalafate_8";
+	}
+	#footer {
+		padding-top: 10px;
+		flex-direction: column;
+		height: auto;
+		gap: 10px;
+	}
+	.footerLogo {
+		width: 45px;
+		height: 45px;
+		flex-direction: column;
+	}
+	.footer__links {
+		ul {
+			li {
+				a {
+					padding-right: 42px;
+					font-size: 13px;
+					flex-direction: column;
+				}
+			}
+		}
+	}
+	.footerRedes {
+		width: 40px;
+		height: 40px;
+		margin-bottom: 5px;
+	}
+}

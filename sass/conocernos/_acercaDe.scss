@@ -1,0 +1,33 @@
+$background-color_7: rgba(226, 204, 134, 0.833);
+
+
+#main {
+	h1 {
+		color: $color_6;
+		margin-top: 20px;
+		font-size: 55px;
+		text-align: center;
+		font-family: $font-family_6;
+	}
+}
+.acercaDe__contenedor {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 25%;
+	width: 50%;
+	height: 80px;
+	justify-content: center;
+	background-color: $background-color_7;
+	border-radius: 15px;
+	display: flex;
+	h3 {
+		margin-top: 22px;
+		margin-left: 15px;
+	}
+	p {
+		margin-left: 15px;
+	}
+	img {
+		width: 10%;
+	}
+}
