@@ -5,69 +5,59 @@ $font-family_3: 'Dosis', sans-serif;
 
 #banner {
 	display: flex;
-	height: auto;
-	img {
-		position: relative;
-		width: 100%;
-		height: 85vh;
-	}
-	.banner__contenido {
-		position: absolute;
-		.bienvenidos {
-			display: flex;
-			position: absolute;
-			flex-direction: column;
-			justify-content: center;
-			align-items: center;
-			width: 700px;
-			height: 560px;
-			border-radius: 10px;
-			backdrop-filter: blur(0.4rem);
-			margin: 5% 115%;
+	background-image: url(../images/Banner_4.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	align-items: center;
+
+	.banner__titulo {
+		margin-top: 40px;
+		gap: 50px;
+		width: 50%;
+		display: flex;
+		text-align: center;
+		flex-direction: column;
+		align-items: center;
+		.banner-titulo__h2 {
+			font-size: 21px;
+			font-family: $font-family_2;
+		}
+		.banner__parrafo {
+			font-size: 21px;
+			font-family: $font-family_2;
+		}
+		.banner__boton {
+			font-size: 21px;
+			font-family: $font-family_2;
+			& {
+				width: 130px;
+				height: 50px;
+				background-color: $background-color_1;
+				border-radius: 20px;
+			}
 		}
 	}
-}
-.banner__titulo {
-	font-size: 21px;
-	text-align: center;
-	margin: 60px 50px;
-	font-family: $font-family_2;
-	width: 570px;
-	height: 150px;
-}
-.banner__parrafo {
-	font-size: 21px;
-	text-align: center;
-	margin: 60px 50px;
-	font-family: $font-family_2;
-	width: 570px;
-	height: 150px;
-}
-.banner__boton {
-	font-size: 21px;
-	text-align: center;
-	margin: 60px 50px;
-	font-family: $font-family_2;
-	width: 570px;
-	height: 150px;
-	a {
-		width: 130px;
-		height: 50px;
-		background-color: $background-color_1;
-		border-radius: 20px;
-	}
-}
-.bienvenidos {
-	h2 {
-		margin-top: 12px;
-		color: $color_3;
-		font-size: 100px;
-		font-family: $font-family_3;
-	}
-	h3 {
-		margin-top: 10px;
-		color: $color_1;
-		font-size: 25px;
-		font-family: $font-family_3;
-	}
+
+	.bienvenidos {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+		margin: 50px 50px;
+		width: 50%;
+		height: 100vh;
+		backdrop-filter: blur(0.4rem);
+		border-radius: 100px;
+			h2 {
+				color: $color_3;
+				font-size: 100px;
+				font-family: $font-family_3;
+			}
+			h3 {
+				color: $color_1;
+				font-size: 25px;
+				font-family: $font-family_3;
+			}
+		}
 }

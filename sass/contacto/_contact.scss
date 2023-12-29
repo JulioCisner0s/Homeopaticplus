@@ -1,12 +1,12 @@
 #contacto_2 {
 	display: flex;
+	gap: 20px;
 	.mapa {
 		iframe {
-			width: 700px;
+			width: 650px;
 			height: 440px;
 			margin-top: 50px;
 			margin-bottom: 40px;
-			margin-left: 15%;
 		}
 	}
 }
@@ -30,7 +30,7 @@
 	.contacto_Ubi {
 		.calle {
 			font-size: 23px;
-			margin-left: 120px;
+			margin-left: 110px;
 		}
 	}
 	.contacto_Mail {

@@ -4,8 +4,11 @@ $background-color_4: rgb(244, 244, 244);
 
 #tituloTienda {
 	h1 {
+		color: $color_6;
+		margin-top: 10px;
+		font-size: 55px;
 		text-align: center;
-		color: $color_7;
+		font-family: $font-family_6;
 	}
 }
 #containerGridCalafate2 {
@@ -14,21 +17,22 @@ $background-color_4: rgb(244, 244, 244);
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: repeat(2, 1fr);
-	gap: 0px;
 	grid-template-areas: "imgCalafate_1 imgCalafate_2 imgCalafate_3 imgCalafate_4" "imgCalafate_5 imgCalafate_6 imgCalafate_7 imgCalafate_8";
 }
 .tamañoBox2 {
 	position: relative;
 	h2 {
 		position: absolute;
-		font-size: 17px;
+		font-size: 23px;
 		margin-left: 23px;
+		font-family: $font-family_6;
 	}
 	h3 {
 		margin-top: 40px;
-		position: absolute;
-		font-size: 12px;
+		font-size: 15px;
 		margin-left: 23px;
+		color: $color_6;
+		font-family: $font-family_6;
 	}
 	img {
 		border-radius: 15%;

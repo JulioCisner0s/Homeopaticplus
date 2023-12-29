@@ -1,18 +1,12 @@
-@import "mediaQuery";
-@import "footer";
-@import "headerNav";
+@import "fonts";
 @import "resetCSS";
+@import "headerNav";
 @import "banner";
 @import "servicios";
 @import "historia";
+@import "footer";
+@import "mediaQuery";
 @import "tienda/storearticles";
 @import "citas/citas1";
 @import "contacto/contact";
 @import "conocernos/acercaDe";
-
-
-@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');

@@ -1,3 +1,168 @@
+@media (max-width: 320px) {
+	#navBar {
+		flex-direction: column;
+		ul {
+			display: flex;
+			flex-direction: column;
+		}
+	}
+	header {
+		nav {
+			img {
+				width: 15%;
+				padding: 10px;
+			}
+		}
+	}
+
+	#historia {
+		flex-direction: column;
+	}
+	#banner {
+		height: auto;
+		flex-direction: column;
+		.bienvenidos{
+			width: fit-content;
+			height: auto;
+			padding: 20px;
+			border-radius: 10px;
+			h2 {
+				font-size: 50px;
+			}
+			h3 {
+				font-size: 19px;
+			}
+		}
+	}
+	#acercaDe {
+		padding: 0 10px;
+		padding-bottom:  10px;
+		font-size: 12px;
+		h3{
+			margin-top: 15px;
+		}
+		p{
+			margin-right: 30px;
+		}
+		img {
+			width: fit-content;
+			margin: 5px;
+		}
+		.acercaDe__contenedor {
+			margin-bottom: 0px;
+			margin-left: 0px;
+			width: fit-content;
+			height: 90px;
+		}
+	}
+	#contacto_2 {
+		flex-direction: column;
+		align-items: stretch;
+		img{
+			display: flex;
+			margin-left: 42%;
+			width: 17%;
+		}
+		p{
+			text-align: center;
+			font-size: 20px;
+			margin-left: 0px;
+		}
+		.mapa {
+			margin-left: 10px;
+			display: flex;
+			position: relative;
+			width: 150px;
+			height: auto;
+		}
+	}
+
+	#titulo_ciats {
+		h1{
+			margin-left: 93px;
+		}
+	}
+	#content {
+		flex-direction: column;
+		.ciats{
+			h2{
+				padding-top: 20px;
+				text-align: center;
+				font-size: 35px;
+				margin: 0px;
+			}
+			p{
+				font-size: 20px;
+				margin: 0px;
+				text-align: center;
+			}
+		}
+		.contact-wrapper {
+			margin-right: 5px;
+		}
+		.contact-form{
+			margin-left: 5px;
+			width: fit-content;
+			height: fit-content;
+		}
+	}
+
+	#containerGridCalafate2 {
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(8, 200px);
+		grid-template-areas: 
+		"imgCalafate_1"
+		"imgCalafate_2" 
+		"imgCalafate_3" 
+		"imgCalafate_4" 
+		"imgCalafate_5" 
+		"imgCalafate_6" 
+		"imgCalafate_7" 
+		"imgCalafate_8";
+		.tamañoBox2 {
+			img{
+				max-width: 100%;
+			}
+			h2{
+				font-size: 13px;
+			}
+			h3{
+				font-size: 10px;
+			}
+		}
+	}
+	#footer {
+		padding-top: 10px;
+		flex-direction: column;
+		height: fit-content;
+		gap: 10px;
+	}
+	.footerLogo {
+		width: 65px;
+		height: 65px;
+		flex-direction: column;
+	}
+	.footer__links {
+		ul {
+			li {
+				a {
+					padding-right: 9px;
+					font-size: 20px;
+					flex-direction: column;
+				}
+			}
+		}
+	}
+	.footerRedes {
+		width: 40px;
+		height: 40px;
+		margin-bottom: 5px;
+	}
+}
+
+
+
+
 @media (max-width: 768px) {
 	#iniciosGRID {
 		display: flex;
@@ -54,13 +219,7 @@
 	.tamañoBox2 {
 		margin-bottom: 27px;
 	}
-	#containerGridCalafate2 {
-		gap: 10px;
-		flex-direction: column;
-		grid-template-columns: 1fr;
-		grid-template-rows: repeat(8, 160px);
-		grid-template-areas: "imgCalafate_1" "imgCalafate_2" "imgCalafate_3" "imgCalafate_4" "imgCalafate_5" "imgCalafate_6" "imgCalafate_7" "imgCalafate_8";
-	}
+
 	#footer {
 		padding-top: 10px;
 		flex-direction: column;
@@ -68,16 +227,16 @@
 		gap: 10px;
 	}
 	.footerLogo {
-		width: 45px;
-		height: 45px;
+		width: 65px;
+		height: 65px;
 		flex-direction: column;
 	}
 	.footer__links {
 		ul {
 			li {
 				a {
-					padding-right: 42px;
-					font-size: 13px;
+					padding-right: 9px;
+					font-size: 20px;
 					flex-direction: column;
 				}
 			}
