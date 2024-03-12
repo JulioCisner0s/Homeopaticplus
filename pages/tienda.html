@@ -11,6 +11,8 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
 
         <link rel="stylesheet" href="../css/style.css">
         <!--TÍTULO DEL DOCUMENTO-->
@@ -50,51 +52,102 @@
                     <h3> Su salud es la prioridad.</h3>
                 </div>
             </section>
-            <section id="tituloTienda">
-                <h1>Tienda</h1>
-            </section>
-            <section id="containerGridCalafate2">
-                <article class="imgCalafate_1 tamañoBox2">
-                    <img src="../images/Producto1.webp" alt="Producto 1">
-                    <h2>Producto</h2>
-                    <h3>$250</h3>
-                </article>
-                <article class="imgCalafate_2 tamañoBox2">
-                    <img src="../images/Producto2.jpeg" alt="Producto 2">
-                    <h2>Producto</h2>
-                    <h3>$350</h3>
-                </article>
-                <article class="imgCalafate_3 tamañoBox2">
-                    <img src="../images/Producto3.jpg" alt="Producto 3">
-                    <h2>Producto</h2>
-                    <h3>$40</h3>
-                </article>
-                <article class="imgCalafate_4 tamañoBox2">
-                    <img src="../images/Producto4.jpg" alt="Producto 4">
-                    <h2>Producto</h2>
-                    <h3>$189</h3>
-                </article>
-                <article class="imgCalafate_5 tamañoBox2">
-                    <img src="../images/Producto5.png" alt="Producto 5">
-                    <h2>Producto</h2>
-                    <h3>$500</h3>
-                </article>
-                <article class="imgCalafate_6 tamañoBox2">
-                    <img src="../images/Producto6.jpg" alt="Producto 6">
-                    <h2>Producto</h2>
-                    <h3>$899</h3>
-                </article>
-                <article class="imgCalafate_7 tamañoBox2">
-                    <img src="../images/Producto7.png" alt="Producto 7">
-                    <h2>Producto</h2>
-                    <h3>$679</h3>
-                </article>
-                <article class="imgCalafate_8 tamañoBox2">
-                    <img src="../images/Producto8.jpeg" alt="Producto 8">
-                    <h2>Producto</h2>
-                    <h3>$540</h3>
-                </article>
-            </section>
+            <div class="wrapper">
+                <aside>
+                    <header>
+                        <h1 class="logo-tienda">Tienda</h1>
+                    </header>
+                    <nav>
+                        <ul class="menu">
+                            <li>
+                                <button class="boton-menu boton-categoria active"><i class="bi bi-hand-index-thumb-fill"></i>Todos los productos</button>
+                            </li>
+                            <li>
+                                <button class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Pastillas</button>
+                            </li>
+                            <li>
+                                <button class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Bebibles</button>
+                            </li>
+                            <li>
+                                <button class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Gotas</button>
+                            </li>
+                            <li>
+                                <a class="boton-menu boton-carrito" href="../pages/carrito.html">
+                                    <i class="bi bi-cart-fill"></i>Carrito <span class="numerito">0</span></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </aside>
+            <main class="tienda-carrito">
+                <h2 class="titulo-principal">Todos los productos</h2>
+                <div class="contenedor-productos">
+                    <div class="producto">
+                        <img class="producto-imagen" src="../images/Producto1.webp" alt="">
+                        <div class="producto-detalles">
+                            <h3 class="producto-titulo">Producto 01</h3>
+                            <p class="producto-precio">$499</p>
+                            <button class="producto-agregar">Agregar</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img class="producto-imagen" src="../images/Producto2.jpeg" alt="">
+                        <div class="producto-detalles">
+                            <h3 class="producto-titulo">Producto 02</h3>
+                            <p class="producto-precio">$799</p>
+                            <button class="producto-agregar">Agregar</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img class="producto-imagen" src="../images/Producto3.jpg" alt="">
+                        <div class="producto-detalles">
+                            <h3 class="producto-titulo">Producto 03</h3>
+                            <p class="producto-precio">$399</p>
+                            <button class="producto-agregar">Agregar</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img class="producto-imagen" src="../images/Producto4.jpg" alt="">
+                        <div class="producto-detalles">
+                            <h3 class="producto-titulo">Producto 04</h3>
+                            <p class="producto-precio">$799</p>
+                            <button class="producto-agregar">Agregar</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img class="producto-imagen" src="../images/Producto5.png" alt="">
+                        <div class="producto-detalles">
+                            <h3 class="producto-titulo">Producto 05</h3>
+                            <p class="producto-precio">$1000</p>
+                            <button class="producto-agregar">Agregar</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img class="producto-imagen" src="../images/Producto6.jpg" alt="">
+                        <div class="producto-detalles">
+                            <h3 class="producto-titulo">Producto 06</h3>
+                            <p class="producto-precio">$1299</p>
+                            <button class="producto-agregar">Agregar</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img class="producto-imagen" src="../images/Producto7.png" alt="">
+                        <div class="producto-detalles">
+                            <h3 class="producto-titulo">Producto 07</h3>
+                            <p class="producto-precio">$249</p>
+                            <button class="producto-agregar">Agregar</button>
+                        </div>
+                    </div>
+                    <div class="producto">
+                        <img class="producto-imagen" src="../images/Producto8.jpeg" alt="">
+                        <div class="producto-detalles">
+                            <h3 class="producto-titulo">Producto 08</h3>
+                            <p class="producto-precio">$799</p>
+                            <button class="producto-agregar">Agregar</button>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            </div>
         </main>
 
         <!--ESTRUCTURA #3 / FOOTER-->
@@ -118,5 +171,6 @@
                 <img class="footerRedes" src="../icons/Twitter2.png" alt="Twiitter">
             </div>
         </footer>
+        <script src="./js/main.js"></script>
     </body>
 </html>

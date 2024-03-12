@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--HEAD = ALOJAMIENTO DE METATAGS Y LINKS A LIBRERÍAS Y ESTILOS-->
+    <head>
+        <!--METAS SEO-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="descriptions" content="Homeopatic+ es un centro de salud que se especializa en la práctica de la homeopatía como enfoque terapéutico. Esta clínica ofrece servicios de atención médica basados en los principios homeopáticos, que buscan tratar a los individuos de manera holística, abordando no solo los síntomas físicos, sino también los aspectos emocionales y mentales de la salud.">
+        <meta name="keywords" content=  "venta, medicina, homeopatia, medicamento, clinica, aguascalientes">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+        <link rel="stylesheet" href="../css/style.css">
+        <title>Carrito</title>
+    </head>
+    <body>
+        <!--ESTRUCTURA #2 / MAIN/SECTIONS-ARTICLES-DIVS-ASIDES-->
+        <main>
+            <section id="banner">
+                <div class="banner__titulo">
+                    <h2 class="banner-titulo__h2">La mejor opción para tu salúd.</h2>
+                    <h2 class="banner-titulo__h2">Citas, tienda, contacto, todo acerca de la medicina homeopática lo más cerca de ti.</h2>
+                    <p class="banner__parrafo">Elige la hora que prefieras y pide cita sin necesidad de llamar. Es fácil, cómodo y muy rápido.
+                        Te confirmamos la cita al instante y te enviamos un recordatorio a tu celular antes de la cita.
+                        Bienvenido a mi portal.
+                        </p>
+                    <a class="banner__boton" href="..pages/conocernos.html">Saber Más</a>
+                </div>
+                <div class="bienvenidos">
+                    <h2>¡LE DAMOS <br> 
+                        LA <br>
+                        BIENVENIDA!</h2>
+                    <h3> Su salud es la prioridad.</h3>
+                </div>
+            </section>
+            <div class="wrapper">
+                <aside>
+                    <header>
+                        <h1 class="logo">Carrito</h1>
+                    </header>
+                    <nav>
+                        <ul class="menu">
+                            <li>
+                                <a class="boton-menu boton-volver" href="../pages/tienda.html">
+                                    <i class="bi bi-arrow-return-left"></i>Seguir comprando
+                                </a>
+                            </li>
+                            <li>
+                                <a class="boton-menu boton-carrito" href="../pages/carrito.html">
+                                    <i class="bi bi-cart-fill"></i>Carrito <span class="numerito">0</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </aside>
+            </div>
+            <main class="tienda-carrito">
+                <h2 class="titulo-principal">Carrito</h2>
+                <div class="contenedor-carrito">
+                    <p class="carrito-vacio">Tu carrito está vació. <i class="bi bi-emoji-frown"></i></p>
+                    <div class="carrito-productos">
+                        <div class="carrito-producto">
+                            <img class="producto-imagen" src="../images/Producto1.webp" alt="">
+                            <div class="carrito-producto-titulo">
+                                <small>Titulo</small>
+                                <h3>Producto 01</h3>
+                            </div>
+                            <div class="carrito-producto-cantidad">
+                                <small>Cantidad</small>
+                                <p>1</p>
+                            </div>
+                            <div class="carrito-producto-precio">
+                                <small>Precio</small>
+                                <p>$499</p>
+                            </div>
+                            <div class="carrito-producto-subtotal">
+                                <small>Subtotal</small>
+                                <p>$499</p>
+                            </div>
+                            <button class="carrito-producto-eliminar"><i class="bi bi-trash-fill"></i></button>
+                        </div>
+                        <div class="carrito-producto">
+                            <img class="producto-imagen" src="../images/Producto2.jpeg" alt="">
+                            <div class="carrito-producto-titulo">
+                                <small>Titulo</small>
+                                <h3>Producto 02</h3>
+                            </div>
+                            <div class="carrito-producto-cantidad">
+                                <small>Cantidad</small>
+                                <p>2</p>
+                            </div>
+                            <div class="carrito-producto-precio">
+                                <small>Precio</small>
+                                <p>$799</p>
+                            </div>
+                            <div class="carrito-producto-subtotal">
+                                <small>Subtotal</small>
+                                <p>$1598</p>
+                            </div>
+                            <button class="carrito-producto-eliminar"><i class="bi bi-trash-fill"></i></button>
+                        </div>
+                    </div>
+                    <div class="carrito-acciones">
+                        <div class="carrito-acciones-izquierda">
+                            <button class="carrito-acciones-vaciar"></button>
+                        </div>
+                        <div class="carrito-acciones-derecha">
+                            <div class="carrito-acciones-total">
+                                <p>Total:</p>
+                                <p id="total">$2000</p>
+                            </div>
+                            <button class="carrito-acciones-comprar">Comprar ahora</button>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </main>
+
+        <!--ESTRUCTURA #3 / FOOTER-->
+        <footer id="footer">
+            <div class="footerContainer__logo">
+                <img class="footerLogo" src="../icons/Logo.png" alt="Logo_1">
+            </div>
+            <div class="footer__links">
+                <ul> <!--LISTA DESORDENADA-->
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="citas.html">Citas</a></li>
+                    <li><a href="conocernos.html">Acerca De</a></li>
+                    <li><a href="#">Tienda</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footerContainer__redes">
+                <img class="footerRedes" src="../icons/Whatsapp2.png" alt="Whatssapp">
+                <img class="footerRedes" src="../icons/Facebook3.png" alt="Facebook">
+                <img class="footerRedes" src="../icons/Instagram2.png" alt="Instagram">
+                <img class="footerRedes" src="../icons/Twitter2.png" alt="Twiitter">
+            </div>
+        </footer>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
