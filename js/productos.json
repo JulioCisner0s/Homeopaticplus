@@ -1,0 +1,89 @@
+[
+    {
+        "id": "Producto-01",
+        "titulo": "Dr.Reckeweg R10",
+        "imagen": " ../images/Producto1.webp",
+        "categoria": {
+            "nombre": "Bebibles",
+            "id": "bebibles"
+        },
+        "precio": 499
+    },
+
+    {
+        "id": "Producto-02",
+        "titulo": "Expecto DHU",
+        "imagen": " ../images/Producto2.jpeg",
+        "categoria": {
+            "nombre": "Bebibles",
+            "id": "bebibles"
+        },
+        "precio": 799
+    },
+
+    {
+        "id": "Producto-03",
+        "titulo": "Spigelon",
+        "imagen": " ../images/Producto3.jpg",
+        "categoria": {
+            "nombre": "Bebibles",
+            "id": "bebibles"
+        },
+        "precio": 399
+    },
+
+    {
+        "id": "Producto-04",
+        "titulo": "Guna Allergy",
+        "imagen": " ../images/Producto4.jpg",
+        "categoria": {
+            "nombre": "Bebibles",
+            "id": "bebibles"
+        },
+        "precio": 799
+    },
+
+    {
+        "id": "Producto-05",
+        "titulo": "Dr.Manfort",
+        "imagen": " ../images/Producto5.png",
+        "categoria": {
+            "nombre": "Bebibles, Pastillas",
+            "id": "bebibles, pastillas"
+        },
+        "precio": 1000
+    },
+
+    {
+        "id": "Producto-06",
+        "titulo": "Spascupreet",
+        "imagen": " ../images/Producto6.jpg",
+        "categoria": {
+            "nombre": "Pastillas",
+            "id": "pastillas"
+        },
+        "precio": 1299
+    },
+
+    {
+        "id": "Producto-07",
+        "titulo": "Belladona-Homaccord",
+        "imagen": " ../images/Producto7.png",
+        "categoria": {
+            "nombre": "Gotas",
+            "id": "gotas"
+        },
+        "precio": 249
+    },
+
+    {
+        "id": "Producto-08",
+        "titulo": "Graphitex 6X",
+        "imagen": " ../images/Producto8.jpeg",
+        "categoria": {
+            "nombre": "Gotas",
+            "id": "gotas"
+        },
+        "precio": 499
+    }
+]

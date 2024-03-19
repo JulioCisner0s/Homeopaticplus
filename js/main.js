@@ -1,95 +1,11 @@
-//PRODUCTOS
+let productos = [];
 
-const productos = [
-    {
-        id: "Producto-01",
-        titulo: "Dr.Reckeweg R10",
-        imagen: " ../images/Producto1.webp",
-        categoria: {
-            nombre: "Bebibles",
-            id: "bebibles"
-        },
-        precio: 499
-    },
-
-    {
-        id: "Producto-02",
-        titulo: "Expecto DHU",
-        imagen: " ../images/Producto2.jpeg",
-        categoria: {
-            nombre: "Bebibles",
-            id: "bebibles"
-        },
-        precio: 799
-    },
-
-    {
-        id: "Producto-03",
-        titulo: "Spigelon",
-        imagen: " ../images/Producto3.jpg",
-        categoria: {
-            nombre: "Bebibles",
-            id: "bebibles"
-        },
-        precio: 399
-    },
-
-    {
-        id: "Producto-04",
-        titulo: "Guna Allergy",
-        imagen: " ../images/Producto4.jpg",
-        categoria: {
-            nombre: "Bebibles",
-            id: "bebibles"
-        },
-        precio: 799
-    },
-
-    {
-        id: "Producto-05",
-        titulo: "Dr.Manfort",
-        imagen: " ../images/Producto5.png",
-        categoria: {
-            nombre: "Bebibles, Pastillas",
-            id: "bebibles, pastillas"
-        },
-        precio: 1000
-    },
-
-    {
-        id: "Producto-06",
-        titulo: "Spascupreet",
-        imagen: " ../images/Producto6.jpg",
-        categoria: {
-            nombre: "Pastillas",
-            id: "pastillas"
-        },
-        precio: 1299
-    },
-
-    {
-        id: "Producto-07",
-        titulo: "Belladona-Homaccord",
-        imagen: " ../images/Producto7.png",
-        categoria: {
-            nombre: "Gotas",
-            id: "gotas"
-        },
-        precio: 249
-    },
-
-    {
-        id: "Producto-08",
-        titulo: "Graphitex 6X",
-        imagen: " ../images/Producto8.jpeg",
-        categoria: {
-            nombre: "Gotas",
-            id: "gotas"
-        },
-        precio: 499
-    },
-]
-
+fetch("../js/productos.json")
+    .then(response => response.json())
+    .then(data => {
+        productos = data;
+        cargarProductos(productos);
+    });
 
 const contenedorProductos = document.querySelector("#contenedor-productos");
 const botonesCategorias = document.querySelectorAll(".boton-categoria");
@@ -119,7 +35,6 @@ function cargarProductos(productosElegidos){
     actualizarBotonesAgregar();
 }
 
-cargarProductos(productos);
 
 botonesCategorias.forEach(boton => {
     boton.addEventListener("click", (e) => {
@@ -159,6 +74,25 @@ if(productosEnCarritoLS) {
 }
 
 function agregarAlCarrito(e) {
+    Toastify({
+        text: "Producto Agregado",
+        duration: 3000,
+        close: true,
+        gravity: "top", // `top` or `bottom`
+        position: "right", // `left`, `center` or `right`
+        stopOnFocus: true, // Prevents dismissing of toast on hover
+        style: {
+        background: "linear-gradient(to right, #00b09b, #96c93d)",
+        borderRadius: "2rem",
+        textTransform: "uppercase",
+        fontSize: ".75rem",
+        },
+        offset: {
+            x: '1.5rem', // horizontal axis - can be a number or a string indicating unity. eg: '2em'
+            y: '2rem' // vertical axis - can be a number or a string indicating unity. eg: '2em'
+        },
+        onClick: function(){} // Callback after click
+    }).showToast();
 
     const idBoton = e.currentTarget.id;
     const productoAgregado = productos.find(producto => producto.id === idBoton);
