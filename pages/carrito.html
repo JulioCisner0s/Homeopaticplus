@@ -39,7 +39,7 @@
             <div class="wrapper">
                 <aside>
                     <header>
-                        <h1 class="logo">Carrito</h1>
+                        <h1 class="logo-carrito">Carrito</h1>
                     </header>
                     <nav>
                         <ul class="menu">
@@ -60,61 +60,23 @@
             <main class="tienda-carrito">
                 <h2 class="titulo-principal">Carrito</h2>
                 <div class="contenedor-carrito">
-                    <p class="carrito-vacio">Tu carrito está vació. <i class="bi bi-emoji-frown"></i></p>
-                    <div class="carrito-productos">
-                        <div class="carrito-producto">
-                            <img class="producto-imagen" src="../images/Producto1.webp" alt="">
-                            <div class="carrito-producto-titulo">
-                                <small>Titulo</small>
-                                <h3>Producto 01</h3>
-                            </div>
-                            <div class="carrito-producto-cantidad">
-                                <small>Cantidad</small>
-                                <p>1</p>
-                            </div>
-                            <div class="carrito-producto-precio">
-                                <small>Precio</small>
-                                <p>$499</p>
-                            </div>
-                            <div class="carrito-producto-subtotal">
-                                <small>Subtotal</small>
-                                <p>$499</p>
-                            </div>
-                            <button class="carrito-producto-eliminar"><i class="bi bi-trash-fill"></i></button>
-                        </div>
-                        <div class="carrito-producto">
-                            <img class="producto-imagen" src="../images/Producto2.jpeg" alt="">
-                            <div class="carrito-producto-titulo">
-                                <small>Titulo</small>
-                                <h3>Producto 02</h3>
-                            </div>
-                            <div class="carrito-producto-cantidad">
-                                <small>Cantidad</small>
-                                <p>2</p>
-                            </div>
-                            <div class="carrito-producto-precio">
-                                <small>Precio</small>
-                                <p>$799</p>
-                            </div>
-                            <div class="carrito-producto-subtotal">
-                                <small>Subtotal</small>
-                                <p>$1598</p>
-                            </div>
-                            <button class="carrito-producto-eliminar"><i class="bi bi-trash-fill"></i></button>
-                        </div>
+                    <p id="carrito-vacio" class="carrito-vacio">Tu carrito está vació. <i class="bi bi-emoji-frown"></i></p>
+                    <div id="carrito-productos" class="carrito-productos disabled">
+                        <!-- SE REEMPLAZARA EN EL JS -->
                     </div>
-                    <div class="carrito-acciones">
+                    <div id="carrito-acciones" class="carrito-acciones disabled">
                         <div class="carrito-acciones-izquierda">
-                            <button class="carrito-acciones-vaciar"></button>
+                            <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">Vaciar carrito</button>
                         </div>
                         <div class="carrito-acciones-derecha">
                             <div class="carrito-acciones-total">
                                 <p>Total:</p>
                                 <p id="total">$2000</p>
                             </div>
-                            <button class="carrito-acciones-comprar">Comprar ahora</button>
+                            <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar ahora</button>
                         </div>
                     </div>
+                    <p id="carrito-comprado" class="carrito-comprado disabled">Muchas gracias por tu compra. <i class="bi bi-emoji-laughing"></i></p>
                 </div>
             </main>
         </main>
@@ -140,6 +102,6 @@
                 <img class="footerRedes" src="../icons/Twitter2.png" alt="Twiitter">
             </div>
         </footer>
-        <script src="./js/main.js"></script>
+        <script src="../js/carrito.js"></script>
     </body>
 </html>

@@ -60,91 +60,28 @@
                     <nav>
                         <ul class="menu">
                             <li>
-                                <button class="boton-menu boton-categoria active"><i class="bi bi-hand-index-thumb-fill"></i>Todos los productos</button>
+                                <button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-hand-index-thumb-fill"></i>Todos los productos</button>
                             </li>
                             <li>
-                                <button class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Pastillas</button>
+                                <button id="pastillas" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Pastillas</button>
                             </li>
                             <li>
-                                <button class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Bebibles</button>
+                                <button id="bebibles" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Bebibles</button>
                             </li>
                             <li>
-                                <button class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Gotas</button>
+                                <button id="gotas" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i>Gotas</button>
                             </li>
                             <li>
                                 <a class="boton-menu boton-carrito" href="../pages/carrito.html">
-                                    <i class="bi bi-cart-fill"></i>Carrito <span class="numerito">0</span></a>
+                                    <i class="bi bi-cart-fill"></i>Carrito <span id="numerito" class="numerito">0</span></a>
                             </li>
                         </ul>
                     </nav>
                 </aside>
             <main class="tienda-carrito">
-                <h2 class="titulo-principal">Todos los productos</h2>
-                <div class="contenedor-productos">
-                    <div class="producto">
-                        <img class="producto-imagen" src="../images/Producto1.webp" alt="">
-                        <div class="producto-detalles">
-                            <h3 class="producto-titulo">Producto 01</h3>
-                            <p class="producto-precio">$499</p>
-                            <button class="producto-agregar">Agregar</button>
-                        </div>
-                    </div>
-                    <div class="producto">
-                        <img class="producto-imagen" src="../images/Producto2.jpeg" alt="">
-                        <div class="producto-detalles">
-                            <h3 class="producto-titulo">Producto 02</h3>
-                            <p class="producto-precio">$799</p>
-                            <button class="producto-agregar">Agregar</button>
-                        </div>
-                    </div>
-                    <div class="producto">
-                        <img class="producto-imagen" src="../images/Producto3.jpg" alt="">
-                        <div class="producto-detalles">
-                            <h3 class="producto-titulo">Producto 03</h3>
-                            <p class="producto-precio">$399</p>
-                            <button class="producto-agregar">Agregar</button>
-                        </div>
-                    </div>
-                    <div class="producto">
-                        <img class="producto-imagen" src="../images/Producto4.jpg" alt="">
-                        <div class="producto-detalles">
-                            <h3 class="producto-titulo">Producto 04</h3>
-                            <p class="producto-precio">$799</p>
-                            <button class="producto-agregar">Agregar</button>
-                        </div>
-                    </div>
-                    <div class="producto">
-                        <img class="producto-imagen" src="../images/Producto5.png" alt="">
-                        <div class="producto-detalles">
-                            <h3 class="producto-titulo">Producto 05</h3>
-                            <p class="producto-precio">$1000</p>
-                            <button class="producto-agregar">Agregar</button>
-                        </div>
-                    </div>
-                    <div class="producto">
-                        <img class="producto-imagen" src="../images/Producto6.jpg" alt="">
-                        <div class="producto-detalles">
-                            <h3 class="producto-titulo">Producto 06</h3>
-                            <p class="producto-precio">$1299</p>
-                            <button class="producto-agregar">Agregar</button>
-                        </div>
-                    </div>
-                    <div class="producto">
-                        <img class="producto-imagen" src="../images/Producto7.png" alt="">
-                        <div class="producto-detalles">
-                            <h3 class="producto-titulo">Producto 07</h3>
-                            <p class="producto-precio">$249</p>
-                            <button class="producto-agregar">Agregar</button>
-                        </div>
-                    </div>
-                    <div class="producto">
-                        <img class="producto-imagen" src="../images/Producto8.jpeg" alt="">
-                        <div class="producto-detalles">
-                            <h3 class="producto-titulo">Producto 08</h3>
-                            <p class="producto-precio">$799</p>
-                            <button class="producto-agregar">Agregar</button>
-                        </div>
-                    </div>
+                <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+                <div id="contenedor-productos" class="contenedor-productos">
+                    <!-- ESTO SE RELLENARA EN  EL JS -->
                 </div>
             </main>
             </div>
@@ -171,6 +108,6 @@
                 <img class="footerRedes" src="../icons/Twitter2.png" alt="Twiitter">
             </div>
         </footer>
-        <script src="./js/main.js"></script>
+        <script src="../js/main.js"></script>
     </body>
 </html>
